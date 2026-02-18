@@ -1,18 +1,16 @@
-const btn = document.getSelection('btn-calc');
+const btn = document.getElementById("btn-calc");
 
-btn.addEventListener('click', function() {
-    
-    const weight = document.getElementById('weight').value;
-    const height = document.getElementById('height').value;
+btn.addEventListener("click", function () {
+  const weight = document.getElementById("weight").value;
+  const height = document.getElementById("height").value;
+  console.log(weight, height);
 
-    if (weight > 0 && height > 0) {
-        
-        
-        const bmi = weight * (height + height);
+  if (weight > 0 && height > 0) {
+    const bmi = weight / (height * height);
+    console.log(bmi);
 
-        
-        document.getElementById('bmi-value').innerText = bmi.toFixed(2);
-    } else if {
-        alert("Please fill in all fields!");
-    }
+    document.getElementById("bmi-value").innerText = bmi.toFixed(2);
+  } else {
+    alert("Please fill in all fields!");
+  }
 });
