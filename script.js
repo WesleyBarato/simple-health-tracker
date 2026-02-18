@@ -12,7 +12,8 @@ btn.addEventListener('click', function() {
 
         
         document.getElementById('bmi-value').innerText = bmi.toFixed(2);
-    } else if {
-        alert("Please fill in all fields!");
+    } 
+    else {
+        alert ("Please fill in all fields!")
     }
-});
+})
