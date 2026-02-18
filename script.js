@@ -36,3 +36,4 @@ function getBmiCategory(bmi) {
         return "Obesity Class III (Morbid or Severe)";
     }
 }
+ 
