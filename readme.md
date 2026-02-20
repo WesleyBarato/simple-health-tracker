@@ -1,51 +1,90 @@
-# 🚀 Bug Hunt Challenge: BMI Calculator
+# 🐞 Debugging Challenge: BMI Calculator
 
-Welcome to the Bug Hunt! This is a simple Body Mass Index (BMI) Calculator built with HTML, CSS, and JavaScript. However, there is a problem: **the code is full of bugs.**
+## 📌 Overview
 
-Your mission is to find and fix at least 10 errors to make the application work perfectly.
+This repository contains a deliberately broken BMI (Body Mass Index) calculator created as a debugging challenge.
 
-## 🎯 Objectives
+I designed this exercise to help developers practice one of the most important real-world skills: **reading, understanding, and fixing existing code** rather than writing everything from scratch.
 
-- Fix syntax errors in HTML, CSS, and JS.
-- Correct the BMI calculation logic.
-- Ensure the layout displays correctly.
+The project simulates a common professional scenario where developers must identify issues across HTML, CSS, and JavaScript layers and restore a failing application.
 
-## 🛠️ How to Participate
+---
 
-### 1. Fork the Project
+## 🎯 Challenge Goals
 
-Click on the **Fork** button at the top right of this page to create a copy of this repository in your own GitHub account.
+Participants must:
 
-### 2. Clone your Repository
+* Identify and fix multiple syntax and logic errors
+* Debug DOM interactions and event handling
+* Correct the BMI calculation formula
+* Restore layout and styling issues
+* Apply structured commits describing each fix
 
-Clone the project to your local machine:
+---
+
+## 🛠 Tech Stack
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+
+No frameworks or libraries are used to ensure focus on core debugging skills.
+
+---
+
+## 🔎 What This Challenge Teaches
+
+* Reading legacy or unfamiliar code
+* Systematic debugging approaches
+* Identifying cross-layer issues (UI + logic)
+* Writing meaningful commit history
+* Understanding cause vs. symptom in software errors
+
+---
+
+## 🚀 How to Participate
+
+### 1. Fork the Repository
+
+Create your own copy using the **Fork** button.
+
+### 2. Clone Locally
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/repository-name.git](https://github.com/YOUR_USERNAME/repository-name.git)
+git clone https://github.com/YOUR_USERNAME/repository-name.git
 ```
 
-### 3. Fix the Bugs
+### 3. Fix the Bugs Incrementally
 
-Open the project in VS Code, identify the errors, and fix them. Make sure the calculator works and the design matches the intended style.
-
-### 4. Commit and Push
-
-Instead of sending everything at once, make one commit for each bug you fix. This helps keep the project history organized and easy to follow.
-
-After fixing a specific bug, run:
+Instead of solving everything at once, commit each fix separately:
 
 ```bash
 git add .
-git commit -m "fix: description of the specific bug fixed"
+git commit -m "fix: correct BMI calculation formula"
 git push origin main
 ```
 
-### 5. Create a Pull Request (PR)
+This mirrors how real development teams track changes.
 
-Go back to the original repository where you forked from.
+### 4. Submit a Pull Request
 
-Click on the Pull Requests tab.
+Open a Pull Request describing:
 
-Click New Pull Request.
+* What you fixed
+* Why the issue occurred
+* How you solved it
 
-Describe briefly what you fixed and submit!
+---
+
+## 💡 Why This Project Exists
+
+Modern developers spend a significant amount of time debugging and maintaining systems rather than building greenfield applications.
+
+This challenge was created to simulate that professional reality and strengthen problem-solving skills.
+
+---
+
+## 👤 Author
+
+Wesley Barato
+Software Developer & Technical Instructor
